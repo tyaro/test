@@ -1,0 +1,22 @@
+{
+  "name": "hakoniwa-sugoroku",
+  "version": "1.0.0",
+  "description": "箱庭双六ゲーム - Babylon.jsを使用した3Dボードゲームプロトタイプ",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": ["babylonjs", "3d", "game", "sugoroku", "hakoniwa", "cannon"],
+  "author": "tyaro",
+  "license": "MIT",
+  "dependencies": {
+    "@babylonjs/core": "^7.0.0",
+    "@babylonjs/loaders": "^7.0.0",
+    "@babylonjs/gui": "^7.0.0",
+    "cannon": "^0.6.2"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
